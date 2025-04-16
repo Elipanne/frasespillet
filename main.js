@@ -1,3 +1,4 @@
+console.log("Quiz Game Initialized");
 // Define an array of question objects
 const questions = [
   {
@@ -98,4 +99,3 @@ nextButton.addEventListener('click', () => {
     loadQuestion();
   }
 });
-console.log("Quiz Game Initialized");

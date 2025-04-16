@@ -1,3 +1,4 @@
+/* Basic reset and body styling */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -7,4 +8,78 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+/* Main container for the quiz */
+.quiz-container {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Question container and heading */
+#question-container {
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Button grid for answer options */
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Styling for all buttons */
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d4d4d4;
+}
+
+/* Feedback message styling */
+#feedback {
+  font-size: 18px;
+  margin-top: 10px;
+  height: 24px; /* reserves space for the feedback message */
+}
+
+/* Score display styling */
+#score {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Styling the Next button */
+#next-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#next-btn:hover {
+  background-color: #43a047;
 }

@@ -86,7 +86,7 @@ button:hover {
 /* Logo Styles*/
 .logo {
   max-width: 200px;
-  width: 200px;
+  width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;

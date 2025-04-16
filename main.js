@@ -2,21 +2,21 @@ console.log("Quiz Game Initialized");
 // Define an array of question objects
 const questions = [
   {
-    question: "Hva er hovedstaden i Norge?",
+    question: "Hva er kjernen i frasen 'åpent landskap'?",
     answers: [
-      { text: "Oslo", correct: true },
-      { text: "Bergen", correct: false },
-      { text: "Trondheim", correct: false },
-      { text: "Stavanger", correct: false }
+      { text: "landskap", correct: true },
+      { text: "åpent", correct: false },
+      { text: "åpent landskap", correct: false },
+      { text: "skap", correct: false }
     ]
   },
   {
-    question: "Hva er 2 + 2?",
+    question: "Hva er kjerne i frasen 'på badet'?",
     answers: [
-      { text: "3", correct: false },
-      { text: "4", correct: true },
-      { text: "5", correct: false },
-      { text: "6", correct: false }
+      { text: "badet", correct: false },
+      { text: "på", correct: true },
+      { text: "på badet", correct: false },
+      { text: "kjernen har ingen frase", correct: false }
     ]
   }
   // Du kan legge til flere spørsmål her om ønskelig.

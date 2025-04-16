@@ -83,3 +83,11 @@ button:hover {
 #next-btn:hover {
   background-color: #43a047;
 }
+/* Image / Logo Styles*/
+.logo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

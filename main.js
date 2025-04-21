@@ -10,13 +10,49 @@ const questions = [
       { text: "skap", correct: false }
     ]
   },
+   {
+    question: "Hva er kjernen i frasen 'mørk lilla'?",
+    answers: [
+      { text: "mørke", correct: false },
+      { text: "mørkelilla", correct: false },
+      { text: "mørk", correct: false },
+      { text: "lilla", correct: true }
+    ]
+  },
+   {
+    question: "Hva er kjernen i frasen 'sprøstekt løk''?",
+    answers: [
+      { text: "løk", correct: true },
+      { text: "sprøstekt", correct: false },
+      { text: "stekt", correct: false },
+      { text: "sprø", correct: false }
+    ]
+  },
   {
     question: "Hva er kjerne i frasen 'på badet'?",
     answers: [
       { text: "badet", correct: false },
       { text: "på", correct: true },
       { text: "på badet", correct: false },
-      { text: "kjernen har ingen frase", correct: false }
+      { text: "frasen har ingen kjerne", correct: false }
+    ]
+  },
+   {
+    question: "Hva er kjernen i frasen 'han med de fine tennene'?",
+    answers: [
+      { text: "tennene", correct: false },
+      { text: "fine", correct: false },
+      { text: "han", correct: true },
+      { text: "de fine", correct: false }
+    ]
+  },
+   {
+    question: "Hva er kjernen i frasen 'et svart hull som sluker jorda'?",
+    answers: [
+      { text: "hull", correct: true },
+      { text: "jorda", correct: false },
+      { text: "sluker", correct: false },
+      { text: "som", correct: false }
     ]
   }
   // Du kan legge til flere spørsmål her om ønskelig.
